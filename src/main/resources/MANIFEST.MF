@@ -1,0 +1,17 @@
+Bundle-Name: Ha-VIS Transport API
+Bundle-SymbolicName: havis.transport-api
+Bundle-Version: 2.7.0
+Implementation-Version: 2.7
+Bundle-ManifestVersion: 2
+Bundle-Vendor: HARTING IT_SD
+Havis-Bundle: /OSGI-INF/havis.transport.properties
+Import-Package: 
+ javax.xml.bind,
+ javax.xml.bind.annotation.adapters,
+ javax.xml.bind.attachment,
+ javax.xml.stream,
+ javax.xml.transform,
+ javax.xml.validation
+Export-Package: 
+ havis.transport
+
